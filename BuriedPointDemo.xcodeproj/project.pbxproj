@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2284C32490CC90000BF4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284C22490CC90000BF4B5 /* AppDelegate.m */; };
+		CE2284C62490CC90000BF4B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284C52490CC90000BF4B5 /* SceneDelegate.m */; };
+		CE2284CC2490CC90000BF4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2284CA2490CC90000BF4B5 /* Main.storyboard */; };
+		CE2284CE2490CC92000BF4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2284CD2490CC92000BF4B5 /* Assets.xcassets */; };
+		CE2284D12490CC92000BF4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2284CF2490CC92000BF4B5 /* LaunchScreen.storyboard */; };
+		CE2284D42490CC92000BF4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284D32490CC92000BF4B5 /* main.m */; };
+		CE2284DE2490CC92000BF4B5 /* BuriedPointDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284DD2490CC92000BF4B5 /* BuriedPointDemoTests.m */; };
+		CE2284E92490CC92000BF4B5 /* BuriedPointDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284E82490CC92000BF4B5 /* BuriedPointDemoUITests.m */; };
+		CE2284F82490D692000BF4B5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284F72490D692000BF4B5 /* FirstViewController.m */; };
+		CE2284FB2490D6B4000BF4B5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2284FA2490D6B4000BF4B5 /* SecondViewController.m */; };
+		CE439663249226B700D6BACB /* UIViewController+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE439662249226B700D6BACB /* UIViewController+BuriedPointSwizzle.m */; };
+		CE439666249226DA00D6BACB /* NSObject+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE439665249226DA00D6BACB /* NSObject+BuriedPointSwizzle.m */; };
+		CE43966924936BF900D6BACB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43966824936BF900D6BACB /* Person.m */; };
+		CE71779124D268060064D0D2 /* UITextField+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779024D268060064D0D2 /* UITextField+BuriedPointSwizzle.m */; };
+		CE71779424D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779324D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.m */; };
+		CE71779724D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779624D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.m */; };
+		CE71779A24D3A8C90064D0D2 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779924D3A8C90064D0D2 /* MainView.m */; };
+		CE71779D24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779C24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.m */; };
+		CE7177A024D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71779F24D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.m */; };
+		CE7177A324D404430064D0D2 /* BuriedPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7177A224D404430064D0D2 /* BuriedPointModel.m */; };
+		CEFE916124B6B780004BD039 /* BuriedPointTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFE916024B6B780004BD039 /* BuriedPointTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2284DA2490CC92000BF4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2284B62490CC90000BF4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2284BD2490CC90000BF4B5;
+			remoteInfo = BuriedPointDemo;
+		};
+		CE2284E52490CC92000BF4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2284B62490CC90000BF4B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2284BD2490CC90000BF4B5;
+			remoteInfo = BuriedPointDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2284BE2490CC90000BF4B5 /* BuriedPointDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuriedPointDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2284C12490CC90000BF4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2284C22490CC90000BF4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2284C42490CC90000BF4B5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CE2284C52490CC90000BF4B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CE2284CB2490CC90000BF4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2284CD2490CC92000BF4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2284D02490CC92000BF4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2284D22490CC92000BF4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2284D32490CC92000BF4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2284D92490CC92000BF4B5 /* BuriedPointDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuriedPointDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2284DD2490CC92000BF4B5 /* BuriedPointDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuriedPointDemoTests.m; sourceTree = "<group>"; };
+		CE2284DF2490CC92000BF4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2284E42490CC92000BF4B5 /* BuriedPointDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuriedPointDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2284E82490CC92000BF4B5 /* BuriedPointDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuriedPointDemoUITests.m; sourceTree = "<group>"; };
+		CE2284EA2490CC92000BF4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2284F62490D692000BF4B5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CE2284F72490D692000BF4B5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CE2284F92490D6B4000BF4B5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE2284FA2490D6B4000BF4B5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE439661249226B700D6BACB /* UIViewController+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE439662249226B700D6BACB /* UIViewController+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE439664249226DA00D6BACB /* NSObject+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE439665249226DA00D6BACB /* NSObject+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE43966724936BF900D6BACB /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CE43966824936BF900D6BACB /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CE71778F24D268060064D0D2 /* UITextField+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE71779024D268060064D0D2 /* UITextField+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE71779224D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE71779324D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE71779524D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE71779624D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE71779824D3A8C90064D0D2 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		CE71779924D3A8C90064D0D2 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		CE71779B24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE71779C24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE71779E24D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BuriedPointSwizzle.h"; sourceTree = "<group>"; };
+		CE71779F24D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BuriedPointSwizzle.m"; sourceTree = "<group>"; };
+		CE7177A124D404430064D0D2 /* BuriedPointModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuriedPointModel.h; sourceTree = "<group>"; };
+		CE7177A224D404430064D0D2 /* BuriedPointModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuriedPointModel.m; sourceTree = "<group>"; };
+		CEFE915F24B6B780004BD039 /* BuriedPointTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuriedPointTool.h; sourceTree = "<group>"; };
+		CEFE916024B6B780004BD039 /* BuriedPointTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuriedPointTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2284BB2490CC90000BF4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284D62490CC92000BF4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284E12490CC92000BF4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2284B52490CC90000BF4B5 = {
+			isa = PBXGroup;
+			children = (
+				CE2284C02490CC90000BF4B5 /* BuriedPointDemo */,
+				CE2284DC2490CC92000BF4B5 /* BuriedPointDemoTests */,
+				CE2284E72490CC92000BF4B5 /* BuriedPointDemoUITests */,
+				CE2284BF2490CC90000BF4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2284BF2490CC90000BF4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2284BE2490CC90000BF4B5 /* BuriedPointDemo.app */,
+				CE2284D92490CC92000BF4B5 /* BuriedPointDemoTests.xctest */,
+				CE2284E42490CC92000BF4B5 /* BuriedPointDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2284C02490CC90000BF4B5 /* BuriedPointDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE2284C12490CC90000BF4B5 /* AppDelegate.h */,
+				CE2284C22490CC90000BF4B5 /* AppDelegate.m */,
+				CE2284C42490CC90000BF4B5 /* SceneDelegate.h */,
+				CE2284C52490CC90000BF4B5 /* SceneDelegate.m */,
+				CE2284F62490D692000BF4B5 /* FirstViewController.h */,
+				CE2284F72490D692000BF4B5 /* FirstViewController.m */,
+				CE2284F92490D6B4000BF4B5 /* SecondViewController.h */,
+				CE2284FA2490D6B4000BF4B5 /* SecondViewController.m */,
+				CE71779824D3A8C90064D0D2 /* MainView.h */,
+				CE71779924D3A8C90064D0D2 /* MainView.m */,
+				CE43966724936BF900D6BACB /* Person.h */,
+				CE43966824936BF900D6BACB /* Person.m */,
+				CE43965D249223F900D6BACB /* BuriedPoint */,
+				CE2284CA2490CC90000BF4B5 /* Main.storyboard */,
+				CE2284CD2490CC92000BF4B5 /* Assets.xcassets */,
+				CE2284CF2490CC92000BF4B5 /* LaunchScreen.storyboard */,
+				CE2284D22490CC92000BF4B5 /* Info.plist */,
+				CE2284D32490CC92000BF4B5 /* main.m */,
+			);
+			path = BuriedPointDemo;
+			sourceTree = "<group>";
+		};
+		CE2284DC2490CC92000BF4B5 /* BuriedPointDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2284DD2490CC92000BF4B5 /* BuriedPointDemoTests.m */,
+				CE2284DF2490CC92000BF4B5 /* Info.plist */,
+			);
+			path = BuriedPointDemoTests;
+			sourceTree = "<group>";
+		};
+		CE2284E72490CC92000BF4B5 /* BuriedPointDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2284E82490CC92000BF4B5 /* BuriedPointDemoUITests.m */,
+				CE2284EA2490CC92000BF4B5 /* Info.plist */,
+			);
+			path = BuriedPointDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE43965D249223F900D6BACB /* BuriedPoint */ = {
+			isa = PBXGroup;
+			children = (
+				CE439664249226DA00D6BACB /* NSObject+BuriedPointSwizzle.h */,
+				CE439665249226DA00D6BACB /* NSObject+BuriedPointSwizzle.m */,
+				CE439661249226B700D6BACB /* UIViewController+BuriedPointSwizzle.h */,
+				CE439662249226B700D6BACB /* UIViewController+BuriedPointSwizzle.m */,
+				CE71778F24D268060064D0D2 /* UITextField+BuriedPointSwizzle.h */,
+				CE71779024D268060064D0D2 /* UITextField+BuriedPointSwizzle.m */,
+				CE71779224D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.h */,
+				CE71779324D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.m */,
+				CE71779524D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.h */,
+				CE71779624D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.m */,
+				CE71779B24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.h */,
+				CE71779C24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.m */,
+				CE71779E24D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.h */,
+				CE71779F24D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.m */,
+				CEFE915F24B6B780004BD039 /* BuriedPointTool.h */,
+				CEFE916024B6B780004BD039 /* BuriedPointTool.m */,
+				CE7177A124D404430064D0D2 /* BuriedPointModel.h */,
+				CE7177A224D404430064D0D2 /* BuriedPointModel.m */,
+			);
+			path = BuriedPoint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2284BD2490CC90000BF4B5 /* BuriedPointDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2284ED2490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemo" */;
+			buildPhases = (
+				CE2284BA2490CC90000BF4B5 /* Sources */,
+				CE2284BB2490CC90000BF4B5 /* Frameworks */,
+				CE2284BC2490CC90000BF4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuriedPointDemo;
+			productName = BuriedPointDemo;
+			productReference = CE2284BE2490CC90000BF4B5 /* BuriedPointDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2284D82490CC92000BF4B5 /* BuriedPointDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2284F02490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemoTests" */;
+			buildPhases = (
+				CE2284D52490CC92000BF4B5 /* Sources */,
+				CE2284D62490CC92000BF4B5 /* Frameworks */,
+				CE2284D72490CC92000BF4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2284DB2490CC92000BF4B5 /* PBXTargetDependency */,
+			);
+			name = BuriedPointDemoTests;
+			productName = BuriedPointDemoTests;
+			productReference = CE2284D92490CC92000BF4B5 /* BuriedPointDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2284E32490CC92000BF4B5 /* BuriedPointDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2284F32490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemoUITests" */;
+			buildPhases = (
+				CE2284E02490CC92000BF4B5 /* Sources */,
+				CE2284E12490CC92000BF4B5 /* Frameworks */,
+				CE2284E22490CC92000BF4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2284E62490CC92000BF4B5 /* PBXTargetDependency */,
+			);
+			name = BuriedPointDemoUITests;
+			productName = BuriedPointDemoUITests;
+			productReference = CE2284E42490CC92000BF4B5 /* BuriedPointDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2284B62490CC90000BF4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Baotou BAOYIN Consumer Finance Co., Ltd.";
+				TargetAttributes = {
+					CE2284BD2490CC90000BF4B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CE2284D82490CC92000BF4B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CE2284BD2490CC90000BF4B5;
+					};
+					CE2284E32490CC92000BF4B5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CE2284BD2490CC90000BF4B5;
+					};
+				};
+			};
+			buildConfigurationList = CE2284B92490CC90000BF4B5 /* Build configuration list for PBXProject "BuriedPointDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2284B52490CC90000BF4B5;
+			productRefGroup = CE2284BF2490CC90000BF4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2284BD2490CC90000BF4B5 /* BuriedPointDemo */,
+				CE2284D82490CC92000BF4B5 /* BuriedPointDemoTests */,
+				CE2284E32490CC92000BF4B5 /* BuriedPointDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2284BC2490CC90000BF4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2284D12490CC92000BF4B5 /* LaunchScreen.storyboard in Resources */,
+				CE2284CE2490CC92000BF4B5 /* Assets.xcassets in Resources */,
+				CE2284CC2490CC90000BF4B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284D72490CC92000BF4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284E22490CC92000BF4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2284BA2490CC90000BF4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7177A024D3BD4C0064D0D2 /* UIButton+BuriedPointSwizzle.m in Sources */,
+				CE71779724D2BF000064D0D2 /* UITableView+BuriedPointSwizzle.m in Sources */,
+				CE439666249226DA00D6BACB /* NSObject+BuriedPointSwizzle.m in Sources */,
+				CE7177A324D404430064D0D2 /* BuriedPointModel.m in Sources */,
+				CE439663249226B700D6BACB /* UIViewController+BuriedPointSwizzle.m in Sources */,
+				CE71779D24D3B5350064D0D2 /* UIApplication+BuriedPointSwizzle.m in Sources */,
+				CE43966924936BF900D6BACB /* Person.m in Sources */,
+				CE2284FB2490D6B4000BF4B5 /* SecondViewController.m in Sources */,
+				CE71779A24D3A8C90064D0D2 /* MainView.m in Sources */,
+				CE71779124D268060064D0D2 /* UITextField+BuriedPointSwizzle.m in Sources */,
+				CE2284C32490CC90000BF4B5 /* AppDelegate.m in Sources */,
+				CEFE916124B6B780004BD039 /* BuriedPointTool.m in Sources */,
+				CE2284F82490D692000BF4B5 /* FirstViewController.m in Sources */,
+				CE2284D42490CC92000BF4B5 /* main.m in Sources */,
+				CE2284C62490CC90000BF4B5 /* SceneDelegate.m in Sources */,
+				CE71779424D2B56D0064D0D2 /* UITextView+BuriedPointSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284D52490CC92000BF4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2284DE2490CC92000BF4B5 /* BuriedPointDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2284E02490CC92000BF4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2284E92490CC92000BF4B5 /* BuriedPointDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2284DB2490CC92000BF4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2284BD2490CC90000BF4B5 /* BuriedPointDemo */;
+			targetProxy = CE2284DA2490CC92000BF4B5 /* PBXContainerItemProxy */;
+		};
+		CE2284E62490CC92000BF4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2284BD2490CC90000BF4B5 /* BuriedPointDemo */;
+			targetProxy = CE2284E52490CC92000BF4B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2284CA2490CC90000BF4B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2284CB2490CC90000BF4B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2284CF2490CC92000BF4B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2284D02490CC92000BF4B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2284EB2490CC92000BF4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2284EC2490CC92000BF4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2284EE2490CC92000BF4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2284EF2490CC92000BF4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2284F12490CC92000BF4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuriedPointDemo.app/BuriedPointDemo";
+			};
+			name = Debug;
+		};
+		CE2284F22490CC92000BF4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuriedPointDemo.app/BuriedPointDemo";
+			};
+			name = Release;
+		};
+		CE2284F42490CC92000BF4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuriedPointDemo;
+			};
+			name = Debug;
+		};
+		CE2284F52490CC92000BF4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MN3L9MS2DL;
+				INFOPLIST_FILE = BuriedPointDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MN3L9MS2DL.BuriedPointDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuriedPointDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2284B92490CC90000BF4B5 /* Build configuration list for PBXProject "BuriedPointDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2284EB2490CC92000BF4B5 /* Debug */,
+				CE2284EC2490CC92000BF4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2284ED2490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2284EE2490CC92000BF4B5 /* Debug */,
+				CE2284EF2490CC92000BF4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2284F02490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2284F12490CC92000BF4B5 /* Debug */,
+				CE2284F22490CC92000BF4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2284F32490CC92000BF4B5 /* Build configuration list for PBXNativeTarget "BuriedPointDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2284F42490CC92000BF4B5 /* Debug */,
+				CE2284F52490CC92000BF4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2284B62490CC90000BF4B5 /* Project object */;
+}
